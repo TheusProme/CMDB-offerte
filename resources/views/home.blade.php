@@ -18,7 +18,7 @@
                                     <div class="text-center">
                                         <i class="fas fa-cart-plus fa-4x my-2"></i>
                                     </div>
-                                    Pruducten
+                                    Producten
                                 </div>
                             </div>
                         </a>
