@@ -17,7 +17,7 @@
                 fresh air. We hope you love it.
             </div>
         </div>
-        <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2" v-if="$page.user.role == 'admin'">
+        <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2" v-if="$page.user.role == 'admin' || $page.user.all_teams[1].id == 1">
             <div class="p-6">
                 <div class="flex items-center">
                     <svg

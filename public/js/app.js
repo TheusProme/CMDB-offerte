@@ -25299,7 +25299,7 @@ var render = function() {
       ]
     ),
     _vm._v(" "),
-    _vm.$page.user.role == "admin"
+    _vm.$page.user.role == "admin" || _vm.$page.user.all_teams[1].id == 1
       ? _c(
           "div",
           {

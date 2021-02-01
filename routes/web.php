@@ -54,4 +54,6 @@ Route::get('/send-mail', function () {
         'Comment' => $_GET['Comment']
     ];
     Mail::to('68d4e26934-204aa0@inbox.mailtrap.io')->send(new \App\Mail\NewUserNotification($mailDetails));
+
+    return redirect()->back();
 });
